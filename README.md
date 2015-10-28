@@ -90,7 +90,7 @@ Eg:
 #### options.args
 type: `Array` of `String`
 
-A list of arguments of command line tool. Use `<%= VarName %>` to use values of the processing file.
+A list of arguments for the command line tool. Use `<%= VarName %>` in the argument string.
 
 ##### Possible variables:
 * `file.path`: Absolute pathname of `project.json` file.
@@ -98,8 +98,8 @@ A list of arguments of command line tool. Use `<%= VarName %>` to use values of 
 * `file.dirname`: path.dirname of `project.json` file.
 * `file.basename`: path.basename of `project.json` file.
 * `file.stem`: (filename without suffix) of `project.json` file.
-* `file.`: path.extname of `project.json` file.
-* `outPath`: Combination of `options.outPathBase` with the .NET component directory processing.
+* `file.extname`: path.extname of `project.json` file.
+* `outPath`: Combination of `options.outPathBase` with the .NET component directory name.
 
 ### .dnx(command, options)
 
