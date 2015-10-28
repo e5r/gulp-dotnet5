@@ -60,7 +60,7 @@ type: `Object`
 
 default `process.env`.
 
-But, you can override any environment variables with this option.
+Environment variables for process. You override the original variables with this option.
 
 #### options.cwd
 type: `String`
