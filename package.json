@@ -1,0 +1,33 @@
+{
+  "name": "gulp-dotnet5",
+  "version": "0.1.0",
+  "description": "Gulp plugin for .NET 5",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e5r/gulp-dotnet5.git"
+  },
+  "keywords": [
+    "dotnet",
+    "aspnet",
+    "dnx",
+    "dnvm",
+    "dnu",
+    "dotnet5",
+    "aspnet5"
+  ],
+  "author": "E5R Development Team",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/e5r/gulp-dotnet5/issues"
+  },
+  "homepage": "https://github.com/e5r/gulp-dotnet5#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "lodash": "^3.10.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}

@@ -22,7 +22,7 @@ var gulp = require('gulp'),
 	dotnet = require('gulp-dotnet5');
 	
 gulp.task('build', function() {
-	return gulp.src(path.join('**/project.json'))
+	return gulp.src('**/project.json')
 		.pipe(dotnet.dnu('restore', {
 			verbose: true,
 			args: [

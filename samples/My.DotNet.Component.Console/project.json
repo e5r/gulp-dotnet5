@@ -1,0 +1,14 @@
+{
+	"authors": [
+		"E5R Development Team"
+	],
+	"description": "Sample component for test Gulp .NET 5 Plugin",
+	"frameworks": {
+		"dnx451": {},
+		"dnxcore50": {
+			"dependencies": {
+				"System.Console": "4.0.0-beta-*"
+			}
+		}
+	}
+}
