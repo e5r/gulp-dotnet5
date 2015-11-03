@@ -86,7 +86,14 @@ Base path to join with the way .NET component and provide the variable `outPath`
 Eg:
 
 `outPathBase => './build'` and `component => './src/My.Component/project.json'` creates `outPath => './build/My.Component'`.
- 
+
+#### options.forceContinueIfError
+type: `Boolean`
+
+default: `false`
+
+If `true`, not stop task if error.
+
 #### options.args
 type: `Array` of `String`
 
