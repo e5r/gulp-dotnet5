@@ -3,6 +3,10 @@ gulp-dotnet5
 
 Gulp plugin for .NET 5.
 
+## Wat is new!
+
+See [NEWS.md](NEWS.md) file.
+
 ## Installation
 
 ```
